@@ -1,0 +1,369 @@
+@font-face {
+    font-family: poppins;
+    src: url('../font/Poppins-Regular.ttf');
+}
+
+body {
+    font-family: poppins;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #DE2D16 !important;
+    border-color: #DE2D16 !important;
+}
+
+.btn-primary:hover {
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.40);
+}
+
+.btn-secondary {
+    background-color: #008891 !important;
+    border-color: #008891 !important;
+}
+
+.btn-secondary:hover {
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.40);
+}
+
+.display-5 {
+    font-size: 2.5rem;
+}
+
+.display-6 {
+    font-size: 1.5rem;
+}
+
+.display-7 {
+    font-size: 0.5rem;
+}
+
+.lead-black {
+    color: #212121;
+}
+
+.link-color {
+    color: #008891;
+}
+
+.bg-nav {
+    background-color: #EEEEEE;
+}
+
+.menu ul li {
+    margin: 2px 5px 2px 5px;
+}
+
+.menu .nav-item a {
+    color: #212121;
+    transition: 0.3s ease-in;
+}
+
+.menu .nav-item a.active {
+    background-color: #212121;
+    color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.menu .nav-item a:hover:not(.active) {
+    color: #DE2D16;
+}
+
+.jumbotron {
+    background-color: #007AAA;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    color: #EEEEEE;
+}
+
+.jumbotron .foto-menino img {
+    width: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.primeira-section {
+    background-image: url("../img/background-frase.svg");
+    height: 10rem;
+}
+
+.primeira-section h2 {
+    color: #EEEEEE;
+    font-style: oblique;
+    font-weight: 200;
+    font-size: 26px;
+}
+
+.primeira-section p {
+    color: #EEEEEE
+}
+
+.segunda-section {
+    background-color: #E7E7DE;
+}
+
+.segunda-section h3 {
+    text-align: center;
+}
+
+.segunda-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.intro-info {
+    border-top: 2px solid #008891;
+}
+
+.content {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.card-info {
+    min-height: 260px;
+    border-bottom: 2px solid #008891;
+}
+
+.card-info img {
+    height: 6rem;
+}
+
+.card-info h3 {
+    color: #008891;
+    font-size: 22px;
+}
+
+.card-info p {
+    font-size: 16px;
+}
+
+.terceira-section {
+    background-color: #007AAA;
+}
+
+.terceira-section img {
+    height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.terceira-section h3,
+.terceira-section p {
+    color: #EEEEEE;
+}
+
+.quarta-section .card-feedback .card {
+    border: none;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.20);
+}
+
+.quarta-section h3 {
+    color: #008891;
+}
+
+.quarta-section .card-feedback img {
+    height: 7rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quarta-section .card-feedback p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.quarta-section .card-feedback span {
+    font-size: 12px;
+}
+
+.quarta-section .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #008891;
+    border: none;
+}
+
+.footer {
+    background-color: #008891;
+    color: #EEEEEE;
+    font-size: 12px;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.footer img {
+    height: 2rem;
+}
+
+.footer .lista-patrocinadores {
+    display: flex;
+}
+
+.footer .lista-patrocinadores li {
+    margin: 0px 10px;
+}
+
+.footer .lista-sobre a {
+    color: #EEEEEE;
+}
+
+
+/* CURSOS */
+
+.cursos-pesquisa {
+    background-color: #007AAA;
+}
+
+.cursos-pesquisa h2 {
+    color: #EEEEEE;
+}
+
+.cursos .card {
+    border: none;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.20);
+    transition: 0.2s ease-in-out;
+    color: #212121;
+}
+
+.cursos a:hover {
+    text-decoration: none;
+}
+
+.cursos a:hover .card {
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.70);
+}
+
+
+/* DETALHES DO CURSO */
+
+.jumb-curso.jumbotron {
+    background-color: #0F3057;
+    color: #EEEEEE;
+}
+
+.jumb-curso.jumbotron span {
+    font-size: 10px;
+}
+
+.jumb-curso.jumbotron span img {
+    height: 0.60rem;
+}
+
+.jumb-curso.jumbotron .lista-subdetalhes {
+    list-style-type: none;
+    color: #EEEEEE;
+    display: flex;
+    font-size: 12px;
+}
+
+.jumb-curso.jumbotron .lista-subdetalhes li {
+    margin: 5px 10px;
+}
+
+.jumb-curso.jumbotron .lista-subdetalhes img {
+    margin: 0px 8px;
+}
+
+.curso-detalhes {
+    background-color: #E7E7DE;
+    height: 100vh;
+}
+
+.nota {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.lista-curso {
+    list-style: none;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.lista-curso li img {
+    margin-right: 10px;
+}
+
+.nome-curso {
+    background-color: #0F3057;
+}
+
+.nome-curso h1 {
+    font-size: 30px;
+}
+
+.nome-curso p {
+    font-size: 14px;
+}
+
+.table-thead th {
+    background-color: #212121;
+    color: #EEEEEE;
+}
+
+.collapse-modulo {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-modulo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-modulo li {
+    margin: 5px 0px;
+}
+
+.lista-modulo li img {
+    height: 0.90rem;
+    width: 0.80rem;
+    margin: 0px 10px;
+}
+
+
+/* RESPONSIVIDADE DO CARROSSEL */
+
+@media only screen and (max-width: 2560px) and (min-width: 1025px) {
+    .quarta-section .carousel-inner {
+        height: 27rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .quarta-section .carousel-inner {
+        height: 30rem;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .quarta-section .carousel-inner {
+        height: 50rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .quarta-section .carousel-inner {
+        height: 87rem;
+    }
+}
