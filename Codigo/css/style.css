@@ -63,9 +63,7 @@ body {
 }
 
 .menu .nav-item a.active {
-    background-color: #212121;
-    color: #EEEEEE;
-    border-radius: 5px;
+    color: #DE2D16;
 }
 
 .menu .nav-item a:hover:not(.active) {
@@ -227,11 +225,15 @@ hr.intro-info {
 /* CURSOS */
 
 .cursos-pesquisa {
-    background-color: #007AAA;
+    background-color: #EEEEEE;
 }
 
 .cursos-pesquisa h2 {
-    color: #EEEEEE;
+    color: #212121;
+}
+
+.breadcrumb {
+    background-color: #EEEEEE;
 }
 
 .cursos .card {
@@ -247,6 +249,15 @@ hr.intro-info {
 
 .cursos a:hover .card {
     box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.70);
+}
+
+.card-cursos .card-title {
+    color: #008891;
+}
+
+.card-cursos img {
+    height: 10rem;
+    background-size: contain;
 }
 
 
@@ -339,6 +350,62 @@ hr.intro-info {
     height: 0.90rem;
     width: 0.80rem;
     margin: 0px 10px;
+}
+
+.border-frame {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* VIDEO AULA */
+
+.titulo {
+    background-color: #0F3057;
+    color: #EEEEEE;
+}
+
+.form-check-input {
+    position: relative;
+    margin-right: 10px;
+}
+
+.card-aula {
+    background-color: #EEEEEE;
+}
+
+.card-aula .card-body {
+    max-height: 17rem;
+    overflow: auto;
+}
+
+.card-comentario {
+    border: none;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.20);
+}
+
+.card-comentario img {
+    height: 5rem;
+}
+
+.card-comentario p {
+    font-size: 14px;
+}
+
+.card-comentario span {
+    font-size: 10px;
 }
 
 
