@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url(../font/Raleway-Light.ttf);
+}
+
+@font-face {
+  font-family: "Londrina Shadow", cursive;
+  src: url(../font/LondrinaShadow-Regular.ttf);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--MENU-HEADER--*/
+.menu-header {
+  background-color: #f6f6f6;
+}
+
+.menu-header .navbar-collapse li {
+  margin: 0px 15px;
+}
+
+.menu-header .navbar-collapse .nav-item .nav-link {
+  color: #161d6f;
+}
+
+.menu-header .navbar-collapse .nav-item:hover .nav-link {
+  color: #23689b;
+}
+
+.menu-header .navbar-collapse .nav-item.active .nav-link {
+  text-decoration: underline;
+}
+
+/*--FOOTER--*/
+.footer {
+  background-color: #f6f6f6;
+}
+
+.footer .navbar-collapse li {
+  margin: 0px 15px;
+}
+
+.footer .navbar-collapse .nav-item .nav-link {
+  color: #161d6f;
+}
+
+.footer .navbar-collapse .nav-item:hover .nav-link {
+  color: #23689b;
+}
+
+/*--DEFAULT--*/
+.margin-header {
+  margin-top: 40px;
+}
