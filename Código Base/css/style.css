@@ -93,6 +93,10 @@
   width: 200px;
 }
 
+.categ-section h5, .categ-section p{
+  color: #161d6f;
+}
+
 /*--CURSO-INFO--*/
 .curso-info h3{
   color: #161d6f;
@@ -122,8 +126,52 @@
 
 .curso-info .descricao{
   border: 1px solid #161d6f;
+  color: #161d6f;
   border-radius: 5px;
   padding: 20px;
   max-height: 350px;
+  overflow: auto;
+}
+
+/*--VIDEO-CLASS--*/
+.jumbotron.video-jumb{
+  background-color: #161d6f;
+}
+
+.jumbotron.video-jumb h3, .jumbotron.video-jumb h5{
+  color: #f6f6f6;
+}
+
+.jumbotron.video-jumb hr{
+  border-color: #f6f6f6;
+}
+
+.video-class iframe{
+  border-radius: 5px;
+}
+
+.video-class .class-details h6, .video-class .class-details h6 label{
+  color: #161d6f;
+}
+
+.video-class .class-details h6{
+  font-size: 24px;
+}
+
+.video-class .class-details label{
+  font-size: 18px;
+}
+
+.class-collapse .card-header{
+  background-color: #c7ffd8;
+  border: none;
+}
+
+.class-collapse .btn.btn-link{
+  color: #161d6f;
+}
+
+.class-collapse .card-body{
+  max-height: 300px;
   overflow: auto;
 }
