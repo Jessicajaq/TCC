@@ -41,43 +41,44 @@
 
     <div class="jumbotron index-jumb mb-3 margin-header">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 ">
                     <div class="row">
                         <h2 class="jumb-tittle">Um novo mundo lhe aguarda</h2>
                     </div>
-                    <div class="row mt-2">
-                        <label class="jumb-sub">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                    <div class="row mt-2" >
+                        <label class="jumb-sub">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor
                             invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                             et
                             justo duo dolores et ea rebum</label>
-                        <button type="button" class="btn btn-outline-primary btn-lg mt-2">Começar do Zero</button>
-                        <button type="button" class="btn btn-outline-light btn-lg ml-2 mt-2">Ver Cursos</button>
+                        <button type="button" class="btn btn-jumb btn-primary btn-lg mt-2">Começar do Zero</button>
+                        <button type="button" class="btn btn-jumb btn-light btn-lg ml-2 mt-2">Ver Cursos</button>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <img src="img/jumb-kid.jpg" width="500px" class="img-fluid layout-img" alt="Imagem">
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <img src="img/rocket.svg" class="img-fluid layout-img" alt="Rocket">
                 </div>
             </div>
         </div>
     </div>
 
-    <ul class="nav justify-content-center">
+    <ul class="nav justify-content-center shortcut-link">
         <li class="nav-item">
-            <a class="nav-link active" href="#">Para Alunos</a>
+            <a class="nav-link" href="#paraAlunos">Para Alunos</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Para Educadores</a>
+            <a class="nav-link" href="#paraEducadores">Para Educadores</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Para Pais</a>
+            <a class="nav-link" href="#paraPais">Para Pais</a>
         </li>
     </ul>
 
-    <section class="container mt-4">
-        <div class="row m-0 p-0 mt-4">
-            <div class="col-lg-6">
-                <img src="img/Image.png" class="img-fluid" alt="Imagem">
+    <section class="container links">
+        <div class="row p-0 d-flex align-items-center link-item" id="paraAlunos">
+            <div class="col-lg-6 text-center">
+                <img src="img/para-alunos.svg" class="img-fluid" alt="Imagem">
             </div>
 
             <div class="col-lg-6">
@@ -93,7 +94,10 @@
             </div>
         </div>
 
-        <div class="row m-0 p-0 mt-4">
+        <div class="row p-0 d-flex align-items-center link-item">
+            <div class="col-lg-6 text-center">
+                <img src="img/para-educadores.svg" class="img-fluid" alt="Imagem">
+            </div>
             <div class="col-lg-6">
                 <div class="row">
                     <h2>Para Educadores</h2>
@@ -105,14 +109,11 @@
                         justo duo dolores et ea rebum</label>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img src="img/Image.png" class="img-fluid" alt="Imagem">
-            </div>
         </div>
 
-        <div class="row m-0 p-0 mt-4">
+        <div class="row p-0 d-flex align-items-center link-item" id="paraPais">
             <div class="col-lg-6">
-                <img src="img/Image.png" class="img-fluid" alt="Imagem">
+                <img src="img/para-pais.svg" class="img-fluid" alt="Imagem">
             </div>
 
             <div class="col-lg-6">
@@ -130,7 +131,7 @@
     </section>
 
     <footer>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4 footer">
+        <nav class="navbar navbar-expand-lg navbar-light mt-4 footer">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

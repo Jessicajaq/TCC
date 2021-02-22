@@ -3,9 +3,8 @@
   src: url(../font/Raleway-Light.ttf);
 }
 
-@font-face {
-  font-family: "Londrina Shadow", cursive;
-  src: url(../font/LondrinaShadow-Regular.ttf);
+html, body{
+  height: 100%;
 }
 
 body {
@@ -25,17 +24,18 @@ body {
   color: #161d6f;
 }
 
-.menu-header .navbar-collapse .nav-item:hover .nav-link {
+.menu-header .navbar-collapse .nav-item:not(.active):hover .nav-link {
   color: #23689b;
 }
 
 .menu-header .navbar-collapse .nav-item.active .nav-link {
-  text-decoration: underline;
+  border: 1px solid #161d6f;
+  border-radius: 5px;
 }
 
 /*--FOOTER--*/
 .footer {
-  background-color: #f6f6f6;
+  background-color: #161d6f;
 }
 
 .footer .navbar-collapse li {
@@ -43,14 +43,47 @@ body {
 }
 
 .footer .navbar-collapse .nav-item .nav-link {
-  color: #161d6f;
+  color: #f6f6f6;
 }
 
 .footer .navbar-collapse .nav-item:hover .nav-link {
-  color: #23689b;
+  color: #c7ffd8;
 }
 
 /*--DEFAULT--*/
 .margin-header {
   margin-top: 40px;
+}
+
+/*--BUTTONS--*/
+.btn-jumb.btn-primary {
+  color: #161d6f;
+  border-color: #c7ffd8;
+  background-color: #c7ffd8;
+}
+
+.btn-jumb.btn-primary:hover {
+  background-color: #92ffb3;
+}
+
+.btn-jumb.btn-light {
+  color: #161d6f;
+}
+
+.btn-info {
+  background-color: #ff9b00;
+  border-color: #ff9b00;
+}
+
+.btn-info:hover {
+  background-color: #d07f00;
+  border-color: #d07f00;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
 }

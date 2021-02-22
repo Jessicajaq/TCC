@@ -1,4 +1,6 @@
 primary-color: #161d6f;
 second-color: #c7ffd8;
 another: #c7ffd8;
+#D4800B
 white: #f6f6f6;
+  rgba(0, 0, 0, 0.125);
