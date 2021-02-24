@@ -3,7 +3,8 @@
   src: url(../font/Raleway-Light.ttf);
 }
 
-html, body{
+html,
+body {
   height: 100%;
 }
 
@@ -84,6 +85,24 @@ body {
   text-align: center;
 }
 
-.text-right{
+.text-right {
   text-align: right;
+}
+
+.login-screen .nav-pills .nav-link.active,
+.login-screen .nav-pills .show > .nav-link {
+  color: #161d6f;
+  background-color: #c7ffd8;
+}
+
+.login-screen .nav-pills .nav-link:not(.active){
+  color: #f6f6f6;
+}
+
+.login-screen #c_emailhelp{
+  color: #c7ffd8;
+}
+
+.blue-color{
+  color: #161d6f;
 }

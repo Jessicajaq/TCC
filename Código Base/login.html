@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-4.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-4.6/css/bootstrap.css">
-    <title>HelloCode</title>
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HelloCode - Mundo Programático</title>
 </head>
 
-<body>
+<body class="login">
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg menu-header navbar-light bg-light fixed-top">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +29,7 @@
                         <a class="nav-link" href="cursos.html">Cursos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre Nós</a>
+                        <a class="nav-link" href="sobre_nos.html">Sobre Nós</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="login.html">Login</a>
@@ -37,10 +39,10 @@
         </nav>
     </header>
 
-    <section class="container mt-4">
+    <section class="container login-screen">
         <div class="row">
-            <div class="col-lg-6 ml-auto mr-auto">
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <div class="col-lg-6 ml-auto mr-auto ">
+                <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
                             aria-controls="pills-home" aria-selected="true">Cadastro</a>
@@ -50,7 +52,7 @@
                             aria-controls="pills-profile" aria-selected="false">Login</a>
                     </li>
                 </ul>
-                <div class="tab-content" id="pills-tabContent">
+                <div class="tab-content log" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                         aria-labelledby="pills-home-tab">
                         <form>
@@ -58,19 +60,19 @@
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="c_nome">Nome</label>
-                                        <input type="text" class="form-control" id="c_nome">
+                                        <input type="text" class="form-control" id="c_nome" placeholder="Seu nome">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="c_sobrenome">Sobrenome</label>
-                                        <input type="text" class="form-control" id="c_sobrenome">
+                                        <input type="text" class="form-control" id="c_sobrenome" placeholder="Seu sobrenome">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="c_email">Email</label>
-                                <input type="email" class="form-control" id="c_email" aria-describedby="c_emailhelp">
+                                <input type="email" class="form-control" id="c_email" aria-describedby="c_emailhelp" placeholder="Informe seu e-mail">
                                 <small id="c_emailhelp" class="form-text text-muted">Nós jamais compartilharemos seu
                                     e-mail com alguém</small>
                             </div>
@@ -78,44 +80,45 @@
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="c_senha">Senha</label>
-                                        <input type="password" class="form-control" id="c_senha">
+                                        <input type="password" class="form-control" id="c_senha" placeholder="Informe uma senha bem dificil">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label for="c_csenha">Confirmar Senha</label>
-                                        <input type="password" class="form-control" id="c_csenha">
+                                        <input type="password" class="form-control" id="c_csenha" placeholder="Confirme sua senha dificil">
                                     </div>
                                 </div>
                             </div>
                             <div class="custom-control custom-checkbox mb-3">
                                 <input type="checkbox" class="custom-control-input" id="c_nov">
-                                <label class="custom-control-label" for="c_nov">Quero receber novidades de cursos</label>
-                            </div>   
+                                <label class="custom-control-label" for="c_nov">Quero receber novidades de
+                                    cursos</label>
+                            </div>
                             <div class="custom-control custom-checkbox mb-3">
                                 <input type="checkbox" class="custom-control-input" id="c_termos">
                                 <label class="custom-control-label" for="c_termos">Aceito os Termos de Politica e
                                     Privacidade</label>
-                            </div>                                              
-                            <button type="submit" class="btn btn-primary">Confirmar</button>
+                            </div>
+                            <button type="submit" class="btn btn-info">Confirmar</button>
                         </form>
                     </div>
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                         <form>
                             <div class="form-group">
                                 <label for="l_email">Email</label>
-                                <input type="email" class="form-control" id="l_email" aria-describedby="c_emailhelp">
+                                <input type="email" class="form-control" id="l_email" aria-describedby="c_emailhelp" placeholder="Informe seu e-mail">
                             </div>
                             <div class="form-group">
                                 <label for="l_senha">Senha</label>
-                                <input type="password" class="form-control" id="l_senha">
+                                <input type="password" class="form-control" id="l_senha" placeholder="Informe sua senha">
                             </div>
                             <div class="custom-control custom-checkbox mb-3">
                                 <input type="checkbox" class="custom-control-input" id="l_manter">
                                 <label class="custom-control-label" for="l_manter">Mantenha-me conectado</label>
                             </div>
 
-                            <button type="submit" class="btn btn-primary">Confirmar</button>
+                            <button type="submit" class="btn btn-info">Confirmar</button>
                         </form>
                     </div>
                 </div>
@@ -123,14 +126,8 @@
         </div>
     </section>
 
-
     <footer>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-lg navbar-light mt-4 footer">
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">

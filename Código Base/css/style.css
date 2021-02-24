@@ -21,7 +21,7 @@
 }
 
 .index-jumb .jumb-sub {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .layout-img {
@@ -79,52 +79,55 @@
   color: #161d6f;
 }
 
-.categ-section .card{
+.categ-section .card {
   border: none;
   height: 420px;
 }
 
-.categ-section .card .card-body{
+.categ-section .card .card-body {
   border: 1px solid #161d6f;
   border-radius: 5px;
 }
 
-.categ-section .card img{
+.categ-section .card img {
   width: 200px;
 }
 
-.categ-section h5, .categ-section p{
+.categ-section h5,
+.categ-section p {
   color: #161d6f;
 }
 
 /*--CURSO-INFO--*/
-.curso-info h3{
+.curso-info h3 {
   color: #161d6f;
   display: inline-block;
 }
 
-.curso-info img{
+.curso-info img {
   width: 20px;
 }
 
-.curso-info iframe{
+.curso-info iframe {
+  box-shadow: 8px 8px #c7ffd8;
+  border: 1px solid #c7ffd8;
   border-radius: 5px;
 }
 
-.curso-info .curso-detalhes{
+.curso-info .curso-detalhes {
   font-size: 18px;
 }
 
-.curso-info .curso-prop{
+.curso-info .curso-prop {
   font-size: 14px;
   display: list-item;
 }
 
-.curso-info .curso-prop li{
+.curso-info .curso-prop li {
   margin: 0px 15px;
 }
 
-.curso-info .descricao{
+.curso-info .descricao {
   border: 1px solid #161d6f;
   color: #161d6f;
   border-radius: 5px;
@@ -134,44 +137,112 @@
 }
 
 /*--VIDEO-CLASS--*/
-.jumbotron.video-jumb{
+.jumbotron.video-jumb {
   background-color: #161d6f;
 }
 
-.jumbotron.video-jumb h3, .jumbotron.video-jumb h5{
+.jumbotron.video-jumb h3,
+.jumbotron.video-jumb h5 {
   color: #f6f6f6;
 }
 
-.jumbotron.video-jumb hr{
+.jumbotron.video-jumb hr {
   border-color: #f6f6f6;
 }
 
-.video-class iframe{
+.video-class iframe {
+  box-shadow: 8px 8px #c7ffd8;
+  border: 1px solid #c7ffd8;
   border-radius: 5px;
 }
 
-.video-class .class-details h6, .video-class .class-details h6 label{
+.video-class .class-details h6,
+.video-class .class-details h6 label {
   color: #161d6f;
 }
 
-.video-class .class-details h6{
+.video-class .class-details h6 {
   font-size: 24px;
 }
 
-.video-class .class-details label{
+.video-class .class-details label {
   font-size: 18px;
+  color: #161d6f;
 }
 
-.class-collapse .card-header{
+.class-collapse .card-header {
   background-color: #c7ffd8;
   border: none;
 }
 
-.class-collapse .btn.btn-link{
+.class-collapse .btn.btn-link {
   color: #161d6f;
 }
 
-.class-collapse .card-body{
+.class-collapse .card-body {
   max-height: 300px;
   overflow: auto;
+  color: #161d6f;
 }
+
+/*--LOGIN--*/
+.login {
+  background-color: #161d6f;
+}
+
+.login-screen {
+  color: #f6f6f6;
+  height: 500px;
+  margin-top: 90px;
+}
+
+/*--ABOUT-US--*/
+
+.about-us-tittle{
+  font-size: 42px;
+  color: #161d6f;
+  font-weight: 800;
+  text-shadow: 2px 2px #c7ffd8;
+}
+
+.about-us-tittle.margin-header{
+  margin-top: 80px;
+}
+
+.about-us p{
+  color: #f6f6f6;
+  font-style: italic;
+}
+
+.about-us.jumbotron{
+  background-image: url('../img/about-us.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+.image-bottom{
+  background-position: center !important;
+}
+
+.about-us img{
+  width: 150px;
+}
+
+.components-card .card{
+  border:none;
+}
+
+.components-card .card img{
+  width: 150px;
+}
+
+.components-card .card p{
+  font-size: 14px;
+  color: #161d6f;
+}
+
+.components-card .effect{
+  font-weight: 600;
+}
+
